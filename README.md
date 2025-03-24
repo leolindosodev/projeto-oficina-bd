@@ -39,6 +39,10 @@ Each entity has its own identifier, thus allowing a flexible model.
 
 **__Created by Leonardo Lindoso 💻__**
 
+
+## DESCRIÇÃO EM PORTUGUÊS
+
+
 Titulo do Desafio: 
 
 
