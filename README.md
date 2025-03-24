@@ -38,3 +38,54 @@ Each entity has its own identifier, thus allowing a flexible model.
 
 
 **__Created by Leonardo Lindoso 💻__**
+
+Titulo do Desafio: 
+
+
+Criando um esquema conceitual para o contexto de uma oficina mecânica.
+
+
+
+Origem do Desafio: 
+
+
+Desafio proposto pela professora Juliana Mascarenhas para o desafio de projeto "Construindo um esquema conceitual para banco de Dados" na plataforma DIO.  
+
+
+
+Narrativa:
+ 
+Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica
+
+Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões periódicas
+
+Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.
+
+A partir da OS, calcula-se o valor de cada serviço.
+
+O cliente autoriza ou não a execução dos serviços.
+
+O mecânico valida e executa os serviços.
+
+Os mecânicos possuem código, nome, endereço e especialidade.
+
+Cada OS possui: número, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
+
+
+
+O que está contido no esquema:
+
+
+Entidades
+Chaves Primarias
+Atributos simples 
+Relacionamentos
+Cardinalidade
+
+
+Conceitos utilizados:
+
+
+Neste pequeno projeto, foram utilizados conceitos de Herança, onde podemos observa-los ao visualizar a entidade "Pessoa" que possui atributos genéricos, desta forma evitamos redundância de informações. Conceito de especialização, ao dividirmos a entidade "Mecânico" da entidade "Cliente", cada qual com seus atributos específicos.
+
+Cada entidade possui seu próprio identificador, permitindo assim, um modelo flexível.
